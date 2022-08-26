@@ -1,11 +1,6 @@
 const menuBar = document.querySelector(".menu-bar");
-const menunaV = document.querySelector(".menu-navigation");
+const menuNav = document.querySelector(".menu-navigation");
 
-
-menuBar.addEventListener('click' , () => { }){do {
-	
-	
-} whilearray.forEach(element => {
-	 (conditi
-});on);
-}
+menuBar.addEventListener("click", function () {
+  menuNav.classList.toggle("menu-active");
+});
