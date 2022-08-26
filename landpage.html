@@ -1,47 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styleland.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" 
-    rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-
-    <title>HOME | LANDING PAGE</title>
-
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>HOME | Landing Page</title>
+  </head>
+  <body id="home">
     <header>
-
-    <section class="navigation">
+      <!-- navigation -->
+      <section class="navigation">
         <div class="container">
-         <div class="box-navigation">
+          <div class="box-navigation animate__animated animate__fadeInDown">
             <div class="box">
-                <h1>DIKA</h1>
+              <h1>Logo</h1>
             </div>
             <div class="box menu-navigation">
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">About </a></li>
-                    <li><a href="#">Famous</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+              <ul>
+                <li>
+                  <i class="ri-home-3-line"></i>
+                  <a href="#home">Beranda</a>
+                </li>
+                <li>
+                  <i class="ri-information-line"></i>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <i class="ri-dashboard-line"></i>
+                  <a href="#famous">Famous</a>
+                </li>
+                <li>
+                  <i class="ri-image-line"></i>
+                  <a href="#gallery">Gallery</a>
+                </li>
+                <li>
+                  <i class="ri-phone-line"></i>
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
             </div>
-
-         <div class="box menu-bar">
-
-            <i class="ri-menu-line" style="color: white"></i>
-            
-
-         </div>
-         </div>   
+            <div class="box menu-bar">
+              <i class="ri-menu-3-fill" style="color: white"></i>
+            </div>
+          </div>
         </div>
+      </section>
+      <!-- navigation -->
+
+      <!-- hero -->
+      <section class="hero">
+        <h1 class="animate__animated animate__pulse">Amazing Mountain yang ada di INDONESIA</h1>
+        <h1 class="animate_animated animate_pulse">&copy; made by pandika afrilyansah</h1>
+      </section>
+      <!-- hero -->
+    </header>
+
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="box-about">
+          <div class="box" data-aos="fade-right" data-aos-duration="1000">
+            <h1>GUNUNG</h1>
+            <p>
+              
+              Gunung adalah bagian kerak bumi yang lebih tinggi dari area di sekitarnya. Gunung biasanya memiliki sisi curam yang secara signifikan menyingkap batuan dasarnya. Gunung berbeda dari dataran tinggi karena memiliki daerah puncak yang terbatas, gunung lebih besar dari sebuah bukit, biasanya memiliki ketinggian setidaknya 300 meter (1.000 kaki) di atas tanah sekitarnya. Beberapa gunung adalah puncak yang berdiri sendiri, tetapi sebagian besar merupakan bagian dari rangkaian pegunungan.[1]
+             
+            </p>
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="image/fz.jpg" alt="" />
+          </div>
+        </div>
+      </div>
     </section>
-</header>
-      <script src="js/script.cs"></script>
-<body>
+    
+
+    
+    <section class="famous" id="famous">
+      <div class="container">
+        <div class="box-famous">
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
+            <img src="./image/gunung-sindoro.jpg" alt="" />
+            <h1>Gunung sindoro</h1>
+            <p>Nama dari Gunung Sindoro menjadi inspirasi dari nama Kereta api Argo Sindoro, kereta api eksekutif argo yang melayani Semarang Tawang-Gambir.</p>
+            <hr>
+            <br>
+            <a href="https://id.wikipedia.org/wiki/Gunung_Sindoro" style="color: white;" target="_blank">SOURCE WIKIPEDIA</a>
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+            <img src="./image/GUNUNG-SUMBING.png" alt="" />
+            <h1>Guning sumbing</h1>
+           <p>Dalam Catatan sejarah Sebelum bernama Gunung Sumbing, gunung ini bernama Gunung sembung. Hal ini berdasar dari Manuskrip Bujangga Manik Ketika dia melewati dataran tinggi Dieng</p>   
+           <hr>  
+           <br> 
+           <a href="https://id.wikipedia.org/wiki/Gunung_Sumbing#:~:text=Gunung%20Sumbing%20adalah%20gunung%20api%20yang%20terdapat%20di,yaitu%20Kabupaten%20Magelang%3B%20Kabupaten%20Temanggung%3B%20dan%20Kabupaten%20Wonosobo." style="color:white" target="_blank">SOURCE WIKIPEDIA</a>   
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
+            <img src="./image/gunung-merbabu.jpg" alt="" />
+            <h1>Gunung merbabu</h1>
+            <p>(Hanacaraka:ꦒꦸꦤꦸꦁ​ꦩꦼꦂꦧꦧꦸ) adalah gunung api yang bertipe Strato,yang terletak secara geografis pada 7,5° LS dan 110,4° BT. Secara administratif gunung ini berada di wilayah Kabupaten Magelang di lereng sebelah barat dan Kabupaten Boyolali di lereng</p>
+            <hr>
+            <br>
+            <a href="https://id.wikipedia.org/wiki/Gunung_Merbabu" style="color:white" target="_blank">SOURCE WIKIPEDIA</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="box-gallery">
+          <img src="./image/1.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100" />
+          <img src="./image/gunged.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300" />
+          <img src="./image/jayawijaya.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" />
+          <img src="./image/bromo.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700" />
+          <img src="./image/rinjani.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="900" />
+        </div>
+      </div>
+    </section>
+    
+
+    
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="box-contact">
+          <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">Contact</h1>
+          <form action="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
+            <table>
+              <tr>
+                <td><label for="nama">Nama</label></td>
+                <td><input type="text" id="nama" name="nama" placeholder="Masukkan Nama" autocomplete="off" /></td>
+              </tr>
+              <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" name="email" placeholder="Masukkan Email" autocomplete="off" /></td>
+              </tr>
+              <tr>
+                <td><label for="pesan">Pesan</label></td>
+                <td><textarea name="pesan" id="pesan" placeholder="Masukkan Pesan..." autocomplete="off"></textarea></td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+
+  
+    <footer>
+      <p></p>
+    </footer>
+    
+
+    <script src="./dist/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
